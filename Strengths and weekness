@@ -1,0 +1,42 @@
+Strengths and Weaknesses:
+Linear Regression:
+Strengths:
+
+Interpretability: Linear Regression provides clear interpretability. The coefficients indicate the impact of each feature on the target variable.
+Computationally Efficient: Linear Regression is computationally less intensive compared to complex models like ANN.
+Weaknesses:
+
+Assumes Linearity: Linear Regression assumes a linear relationship between features and the target, which might not capture complex patterns in the data.
+Limited Flexibility: It may not perform well when the relationship between variables is highly non-linear.
+Artificial Neural Network (ANN):
+Strengths:
+
+Complex Patterns: ANN can capture intricate patterns in the data due to its non-linear activation functions and multiple hidden layers.
+Adaptability: Can handle complex relationships without making strong assumptions about the data distribution.
+Weaknesses:
+
+Black-Box Nature: Interpretability can be challenging due to the complex, non-linear nature of ANN. Understanding how each feature influences predictions may not be straightforward.
+Computational Complexity: Training an ANN can be computationally expensive, especially with large datasets and complex architectures.
+Analysis of Model Complexity:
+Interpretability:
+Linear Regression: Highly interpretable. Coefficients directly indicate the impact of each feature.
+ANN: Less interpretable due to the complex relationships learned by hidden layers.
+Computational Complexity:
+Linear Regression: Low computational complexity, making it suitable for large datasets and real-time applications.
+ANN: High computational complexity, especially with deep architectures. Training may require more time and resources.
+Model Flexibility:
+Linear Regression: Limited flexibility in capturing non-linear relationships.
+ANN: Highly flexible, able to adapt to complex relationships without relying on specific assumptions.
+Conclusion:
+The choice between Linear Regression and ANN depends on the specific characteristics of the dataset and the goals of the analysis.
+
+Use Linear Regression when:
+
+Interpretability is crucial.
+The relationship between features and the target is predominantly linear.
+Computational efficiency is a priority.
+Use ANN when:
+
+Capturing complex, non-linear patterns is essential.
+Interpretability can be sacrificed for predictive accuracy.
+Computational resources are available for training a more complex model.

@@ -5,6 +5,7 @@ Executive Summary:**
 This report presents an analysis of predicting house prices in California using two different approaches: Linear Regression and Artificial Neural Network (ANN). The California Housing dataset was utilized, and the models were implemented and compared based on performance metrics.
 
 1. Data Preprocessing:
+   
 1.1 Dataset Exploration:
 The California Housing dataset was loaded using scikit-learn. Features related to housing in California were examined, and basic statistics were generated.
 
@@ -15,6 +16,7 @@ Missing values were checked and handled appropriately. Outliers were addressed u
 The dataset was split into training and testing sets, with 80% used for training and 20% for testing.
 
 2. Linear Regression:
+   
 2.1 Model Implementation:
 A Linear Regression model was implemented using scikit-learn. The model was trained on the training set.
 
@@ -22,6 +24,7 @@ A Linear Regression model was implemented using scikit-learn. The model was trai
 The performance of the Linear Regression model was evaluated using Mean Squared Error (MSE) and R2 Score on the testing set.
 
 3. Artificial Neural Network (ANN):
+   
 3.1 Model Design:
 A simple ANN for regression was designed using TensorFlow/Keras. The architecture included a dense layer with ReLU activation and an output layer.
 
@@ -32,6 +35,7 @@ The ANN was trained on the training set using the Adam optimizer and mean square
 The performance of the ANN was evaluated using the same regression metrics as Linear Regression on the testing set.
 
 4. Comparison and Analysis:
+   
 4.1 Performance Metrics:
 Metrics for both models were compared, including Mean Squared Error and R2 Score.
 

@@ -1,4 +1,12 @@
-Strengths and Weaknesses:
+Linear Regression Metrics:
+Mean Squared Error (MSE): 0.556
+R2 Score: 0.576
+
+Artificial Neural Network (ANN) Metrics:
+Mean Squared Error (MSE): 0.761
+R2 Score: 0.419
+
+**Strengths and Weaknesses:**
 Linear Regression:
 Strengths:
 
